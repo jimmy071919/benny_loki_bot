@@ -42,7 +42,6 @@ account.info
 *.log
 logs/
 temp/
-*.xlsx
 *.xls
 *.csv
 

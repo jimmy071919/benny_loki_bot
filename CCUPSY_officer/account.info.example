@@ -1,0 +1,60 @@
+{
+    "debug": true,
+    "server": "https://api.droidtown.co",
+    "username": "自己的帳號",
+    "api_key": "自己的API密鑰",
+    "loki_key": "自己的LOKI密鑰",
+    "copytoaster_key": "自己的COPYTOASTER密鑰",
+    "copytoaster_category": [],
+    "llm_prompt": {
+        "system": "You are an assistant.",
+        "assistant": "",
+        "user": "answer the question '{{INPUT}}' in Mandarin Chinese used in Taiwan.",
+        "resp_header": [
+            "我的資料庫沒有相關的資料，但網路資料顯示..."
+        ]
+    },
+    "chatbot_mode": true,
+    "chatbot_prompt": {
+        "professor_FieldOfStudy": {
+            "prompt": {
+                "system": "你是一個繁體中文助理。",
+                "assistant": "",
+                "user": "擬定5句回覆「{{UTTERANCE}}」的句子。"
+            },
+            "document": []
+        },
+        "professor_PersonalInterest": {
+            "prompt": {
+                "system": "你是一個繁體中文助理。",
+                "assistant": "",
+                "user": "擬定5句回覆「{{UTTERANCE}}」的句子。"
+            },
+            "document": []
+        },
+        "ask_email": {
+            "prompt": {
+                "system": "你是一個繁體中文助理。",
+                "assistant": "",
+                "user": "擬定5句回覆「{{UTTERANCE}}」的句子。"
+            },
+            "document": []
+        },
+        "ask_examination": {
+            "prompt": {
+                "system": "你是一個繁體中文助理。",
+                "assistant": "",
+                "user": "擬定5句回覆「{{UTTERANCE}}」的句子。"
+            },
+            "document": []
+        },
+        "ask_lecture_activity": {
+            "prompt": {
+                "system": "你是一個繁體中文助理。",
+                "assistant": "",
+                "user": "擬定5句回覆「{{UTTERANCE}}」的句子。"
+            },
+            "document": []
+        }
+    }
+}

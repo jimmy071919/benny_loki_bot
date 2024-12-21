@@ -1,0 +1,8 @@
+ArticutAPI>=1.0.0
+python-dotenv>=0.19.0
+lxml>=4.9.0
+pandas>=1.3.0
+requests>=2.26.0
+openpyxl>=3.0.0
+discord.py>=2.0.0
+pathlib>=1.0.0

@@ -149,3 +149,38 @@ python DC_bot.py
 ## 聯絡資訊
 
 如有任何問題或建議，請聯繫：jimmy071919@gmail.com
+
+## Railway 部署說明
+
+### 環境變數設定
+在 Railway 上部署時，您需要在專案的 Variables 頁面中設定以下環境變數：
+
+1. 基本設定：
+   - `Loki_Account`
+   - `Loki_key`
+   - `DISCORD_TOKEN`
+   - `DROIDTOWN_USERNAME`
+   - `DROIDTOWN_API_KEY`
+   - `DROIDTOWN_LOKI_KEY`
+   - `DROIDTOWN_COPYTOASTER_KEY`
+   - `DEBUG_MODE`
+   - `CHATBOT_MODE`
+
+2. LLM 設定：
+   - `LLM_SYSTEM_PROMPT`
+   - `LLM_ASSISTANT_PROMPT`
+   - `LLM_USER_PROMPT`
+
+### 部署步驟
+
+1. 在 Railway 建立新專案
+2. 連接 GitHub 倉庫
+3. 在 Variables 頁面設定所有環境變數
+4. 設定啟動命令為 `python DC_bot.py`
+
+### 注意事項
+
+- Railway 的環境變數會自動替代本地的 `.env` 檔案
+- 不需要上傳 `.env` 和 `account.info` 到 Git 倉庫
+- 建議在本地開發時使用 `.env`，部署時使用 Railway 的環境變數
+- 記得在 Railway 的 Variables 中設定所有必要的環境變數
